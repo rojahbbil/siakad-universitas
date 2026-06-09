@@ -1,5 +1,45 @@
-# Object file
-*.o
+# =============================================
+# SIAKAD - Sistem Informasi Akademik
+# Git Ignore File
+# =============================================
 
-# Ada Library Information
-*.ali
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database & Credentials
+*.sql.bak
+*.db
+config.ini
+.env
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Specific
+screenshots/*.tmp
+__pycache__/
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
